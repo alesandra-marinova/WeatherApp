@@ -1,0 +1,20 @@
+
+ <p>Select a town from the drop down and check the temperature.</p>
+<form id="tableForm" action="/weather" method="post">
+    <select class="town" data-style="btn-info" name="town">
+        <optgroup label="Select Table">
+            <option value="">Select a town</option>
+            <% data.forEach(function(row){ %>
+            <option value="<%= row %>"><%= row %></option>
+            <% }) %>
+        </optgroup>
+    </select>
+    <input type="submit" />
+</form>
+
+<% if (result !== '') { %>
+    
+    <p> <%= result[0].city %></p>
+    <p> <%= result[0].temperature %></p>
+            
+<% } %>

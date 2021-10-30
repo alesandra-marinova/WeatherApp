@@ -1,0 +1,21 @@
+[{
+    
+    "city":"Varna",
+    "temperature" : "20°C"
+},
+{
+    "city":"Sofia",
+    "temperature" : "25°C"
+},
+{
+    "city":"Plovdiv",
+    "temperature" : "30°C"
+},
+{
+    "city":"Burgas",
+    "temperature" : "23°C"
+},
+{
+    "city":"Pleven",
+    "temperature" : "28°C"
+}]
